@@ -70,8 +70,8 @@ body{
 .sudo{
   color: #f25623;
   text-shadow:
-    0 0 2px #f25623,
-    0 0 8px #c94b22;
+    0 0 1px #f25623,
+    0 0 6px #802508;
 }
 
 #clock{
@@ -88,16 +88,28 @@ main{
   display: flex;
   flex-direction: column;
   height: 70vh;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  padding: 1.4rem 0rem 0rem;
+
+  background: rgba(222, 222, 222, .3)
 }
 
 #greeting{
   font-family: SpaceMono;
   font-weight: 700;
   font-style: normal;
-  font-size: clamp(.2rem, 3vh, 2.5rem);
+  font-size: clamp(2.7rem, 6vw, 5rem);
   text-align: center;
+}
+
+#subheading{
+  font-family: SpaceMono;
+  font-weight: 500;
+  font-style: normal;
+  font-size: clamp(1rem, 2vw, 3rem);
+  text-align: center;
+  padding: 1rem 2rem 0rem;
 }
 
 
