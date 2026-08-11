@@ -92,7 +92,7 @@ main{
   align-items: center;
   padding: 1.4rem 0rem 0rem;
 
-  background: rgba(222, 222, 222, .3)
+  /* background: rgba(222, 222, 222, .3) */
 }
 
 #greeting{
