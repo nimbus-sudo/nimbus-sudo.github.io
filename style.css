@@ -99,10 +99,10 @@ main{
   font-family: SpaceMono;
   font-weight: 700;
   font-style: normal;
-  font-size: clamp(2.7rem, 6vw, 5rem);
+  font-size: clamp(2rem, 6vw, 5rem);
   text-align: center;
 
-  margin: 3rem 0rem 5rem;
+  margin: 3rem 1rem 5rem;
 }
 
 #subheading{
