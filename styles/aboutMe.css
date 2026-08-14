@@ -1,0 +1,40 @@
+.aboutMe{
+  font-family: roboto;
+  font-weight: 700;
+  text-align: center;
+  font-size: clamp(1.5rem, 5vw, 4vw);
+  margin: .8rem 0rem .2rem;
+}
+
+#intro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  height: 60vh;
+}
+
+#intro img {
+  max-height: 21rem;
+  border-radius: 1rem;
+}
+
+#intro p{
+  max-width: 20rem;
+  text-align: justify;
+}
+
+@media screen and (width <= 480px){
+  #intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: .2rem;
+    height: 80vh;
+  }
+
+  #intro p{
+    margin: 2rem;
+  }
+}
